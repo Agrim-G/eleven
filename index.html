@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AutoShine | Premium Car Marketplace (Demo)</title>
+<meta name="description" content="AutoShine is a demo car marketplace: browse sample listings, filter, compare up to three cars and save favourites. Listings are fictional.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%2326282d'/%3E%3Ctext x='32' y='45' font-size='40' text-anchor='middle' fill='%23b8923a' font-family='Georgia'%3EA%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="demo">Demo website. All listings, prices and enquiries are fictional and no real transactions take place.</div>
+<header class="top"><div class="wrap">
+  <a class="logo" href="#/">Auto<b>Shine</b></a>
+  <nav>
+    <a href="#/">Browse</a>
+    <a href="#/favourites">Favourites<span id="nf" hidden></span></a>
+    <a href="#/compare">Compare<span id="nc" hidden></span></a>
+  </nav>
+</div></header>
+<main id="app"></main>
+<div id="tray" hidden>
+  <span id="tray-n"></span>
+  <a class="btn" href="#/compare">Compare now</a>
+  <button class="chip" data-clear>Clear</button>
+</div>
+<div id="toast" role="status" aria-live="polite"></div>
+<footer><div class="wrap">AutoShine is a portfolio demo. Sample listings only; nothing on this site is for sale.</div></footer>
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
